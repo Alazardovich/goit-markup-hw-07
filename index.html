@@ -20,28 +20,28 @@
     <header class="page-header">
       <div class="container">
                
-        <nav class="display-nav-page">
-            <a class="logo" href="./index.html">Web<span class="studio-black">Studio</span></a>
+        <nav class="nav-header">
+            <a class="logo" href="./index.html">Web<span class="logo logo__studio-black">Studio</span></a>
           <ul class="site-nav list">
-            <li class="group">
+            <li class="site-nav__item">
               <a class="link-header current" href="./index.html">Студия</a></li>
-            <li class="group">
+            <li class="site-nav__item">
               <a class="link-header" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="group">
+            <li class="site-nav__item">
               <a class="link-header" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li class="group">
+          <li class="auth-nav__item">
             <a class="link-header" href="mailto:info@devstudio.com"
-              ><svg class="icons-letter"><use href="./images/icon/icons.svg#icon-envelope"></use></svg>
+              ><svg class="link-header__icon-email"><use href="./images/icon/icons.svg#icon-envelope"></use></svg>
               info@devstudio.com</a>
             
           </li>
-          <li class="group">
+          <li class="auth-nav__item">
             <a class="link-header" href="tel:+380961111111"
-              ><svg class="icons-tel"><use href="./images/icon/icons.svg#icon-smartphone">
+              ><svg class="link-header__icon-phone"><use href="./images/icon/icons.svg#icon-smartphone">
                 </use></svg>+38 096 111 11 11</a
             >
           </li>
@@ -49,46 +49,46 @@
       </div>
     </header>
     <main>
-      <div class="pictures-hero">
+      <div class="image-hero">
       <section class="page-hero">
-          <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
-          <button class="style-button" type="button" data-modal-open>Заказать услугу</button>
+          <h1 class="page-hero__title">эффективные решения<br> для вашего бизнеса</h1>
+          <button class="button" type="button" data-modal-open>Заказать услугу</button>
      
-       </div>
+       
           </section>
       </div>
       <section class="section-detail">
         <h2 class="visually-hidden"></h2>
         <div class="container">
-          <ul class="features-list list">
-            <li class="block-features">
-              <h3 class="feature-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+          <ul class="set-features list">
+            <li class="set-features__item">
+              <h3 class="set-features__title">внимание к деталям</h3>
               <p>
-                Идейные соображения, а также начало повседневной работы по
+                идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
 
-            <li class="block-features">
-              <h3 class="feature-title">ПУНКТУАЛЬНОСТЬ</h3>
+            <li class="set-features__item">
+              <h3 class="set-features__title">пунктуальность</h3>
               <p>
-                Задача организации, в особенности же рамки и место обучения
+                задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
 
-            <li class="block-features">
-              <h3 class="feature-title">ПЛАНИРОВАНИЕ</h3>
+            <li class="set-features__item">
+              <h3 class="set-features__title">планирование</h3>
               <p>
-                Равным образом консультация с широким активом в значительной
+                равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
 
-            <li class="block-features">
-              <h3 class="feature-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <li class="set-features__item">
+              <h3 class="set-features__title">современные технологии</h3>
               <p>
-                Значимость этих проблем настолько очевидна, что реализация
+                значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
             </li>
@@ -98,141 +98,167 @@
 
       <section class="section">
         <div class="container">
-          <h2 class="doing-work">Чем мы занимаемся</h2>
-          <ul class="works list">
-            <li class="block-works">
+          <h2 class="section__name">Чем мы занимаемся</h2>
+          <ul class="set-works list">
+            <li class="set-works__item">
               <img src="./images/img(7).jpg" alt="IOS приложения" width="370" />
-              <p class="work-windows">Десктопные приложения</p>
+              <p>десктопные приложения</p>
             </li>
-            <li class="block-works">
+            <li class="set-works__item">
               <img
                 src="./images/img(1)(1).jpg"
                 alt="Android приложения"
                 width="370"
-              /><p class="work-windows">Мобильные приложения</p>
+              /><p>мобильные приложения</p>
             </li>
-            <li class="block-works">
+            <li class="set-works__item">
               <img
                 src="./images/img(2)(1).jpg"
                 alt="Windows приложения"
                 width="370"/>
-                <p class="work-windows">Дизайнерские решения</p>
+                <p>дизайнерские решения</p>
             </li>
           </ul>
         </div>
       </section>
       
-        <section class="section team-b-g">
-          <div class="container">
-            <h2 class="doing-work">Наша команда</h2>
+        <section class="section section-background">
+          <div class="container"> 
+            <h2 class="section__name">Наша команда</h2>
 
-            <ul class="features list">
-              <li class="person-features">
+            <ul class="set-card list">
+              <li class="set-card__item">
                 <img
                   src="./images/img(3)(1).jpg"
                   alt="Product Designer"
                   width="270"
                 />
-                <div class="title-name-work"><h3 class="works-names">Игорь Демьяненко</h3>
+                <div class="set-card__title"><h3 class="set-card__name">Игорь Демьяненко</h3>
                 <p>Product Designer</p>
               
-                  <ul class="icons-team">
-                    <li class="icon-item"><a class="icons-social" href="">
-                      <svg class="icon-inst">
+                  <ul class="set-icon"> 
+                    <li class="set-icon__item">
+                      <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-instagram"></use>
                       </svg>
                     </a></li>
-                    <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                    <li class="set-icon__item">
+                      <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                       <use href="./images/icon/icons.svg#icon-twitter"></use>
                     </svg>
                   </a></li>
-                    <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                    <li class="set-icon__item">
+                      <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                       <use href="./images/icon/icons.svg#icon-facebook"></use>
                     </svg></a></li>
-                    <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                    <li class="set-icon__item">
+                      <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                       <use href="./images/icon/icons.svg#icon-linkedin"></use>
                     </svg></a></li>
                   </ul>
                 </div>
             
 
-              <li class="person-features">
+              <li class="set-card__item">
                 <img
                   src="./images/img(4)(1).jpg"
                   alt="Fronted Developer"
                   width="270"
-                /><div class="title-name-work"><h3 class="works-names">Ольга Репина</h3>
+                /><div class="set-card__title"><h3 class="set-card__name">Ольга Репина</h3>
                 <p>Fronted Developer</p>
-                <ul class="icons-team">
-                  <li class="icon-item"><a class="icons-social" href="">
-                      <svg class="icon-inst">
+                <ul class="set-icon">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-instagram"></use>
                       </svg>
                     </a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-twitter"></use>
                       </svg>
                     </a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-facebook"></use>
                       </svg></a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-linkedin"></use>
                       </svg></a></li>
                 </ul>
                 </div>
               
 
-              <li class="person-features">
+              <li class="set-card__item">
                 <img src="./images/img(5)(1).jpg" alt="Marketing" width="270" />
-                <div class="title-name-work"><h3 class="works-names">Николай Тарасов</h3>
+                <div class="set-card__title"><h3 class="set-card__name">Николай Тарасов</h3>
                 <p>Marketing</p>
-                <ul class="icons-team">
-                  <li class="icon-item"><a class="icons-social" href="">
-                      <svg class="icon-inst">
+                <ul class="set-icon">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-instagram"></use>
                       </svg>
                     </a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-twitter"></use>
                       </svg>
                     </a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-facebook"></use>
                       </svg></a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-linkedin"></use>
                       </svg></a></li>
                 </ul>
               </div>
 
-              <li class="person-features">
+              <li class="set-card__item">
                 <img
                   src="./images/img(6)(1).jpg"
                   alt="UI Designer"
                   width="270"
-                /><div class="title-name-work"><h3 class="works-names">Михаил Ермаков</h3>
+                /><div class="set-card__title"><h3 class="set-card__name">Михаил Ермаков</h3>
                 <p>UI Designer</p>
-                <ul class="icons-team">
-                  <li class="icon-item"><a class="icons-social" href="">
-                      <svg class="icon-inst">
+                <ul class="set-icon">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-instagram"></use>
                       </svg>
                     </a></li>
 
 
-                  <li class="icon-item">
-                    <a class="icons-social" href="">
-                    <svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                    <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-twitter"></use>
                       </svg>
                     </a></li>
 
 
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon"">
                         <use href="./images/icon/icons.svg#icon-facebook"></use>
                       </svg></a></li>
-                  <li class="icon-item"><a class="icons-social" href=""><svg class="icon-inst">
+                  <li class="set-icon__item">
+                    <a class="set-icon__link" href="">
+                      <svg class="set-icon__icon">
                         <use href="./images/icon/icons.svg#icon-linkedin"></use>
                       </svg></a></li>
                 </ul>
@@ -244,25 +270,37 @@
       </section>
       <section class="section">
         <div class="container">
-       <h2 class="company-clients">Постоянные клиенты</h2>
-        <ul class="item-clients">
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients">
+       <h2 class="section__name">Постоянные клиенты</h2>
+        <ul class="set-client">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon">
             <use href="./images/icon/icons.svg#icon-Logo">
             </use>
           </svg></a></li>
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients"><use href="./images/icon/icons.svg#icon-Logo1">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon"><use href="./images/icon/icons.svg#icon-Logo1">
           </use>
           </svg></a></li>
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients"><use href="./images/icon/icons.svg#icon-Logo2">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon"><use href="./images/icon/icons.svg#icon-Logo2">
           </use>
           </svg></a></li>
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients"><use href="./images/icon/icons.svg#icon-Logo3">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon"><use href="./images/icon/icons.svg#icon-Logo3">
           </use>
           </svg></a></li>
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients"><use href="./images/icon/icons.svg#icon-Logo4">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon"><use href="./images/icon/icons.svg#icon-Logo4">
           </use>
           </svg></a></li>
-          <li class="border-icon"><a class="size-button-client" href=""><svg class="icon-clients"><use href="./images/icon/icons.svg#icon-Logo5">
+          <li class="set-client__item">
+            <a class="set-client__link" href="">
+              <svg class="set-client__icon"><use href="./images/icon/icons.svg#icon-Logo5">
           </use>
           </svg></a></li>
         </ul>
@@ -373,7 +411,7 @@
           <button type="submit" class="form-button">Отправить</button>
     
         </form>
-    
+    </div>
       </div>
     <script src="./js/modal.js"></script>
  <script>
