@@ -52,7 +52,7 @@
       <div class="image-hero">
       <section class="page-hero">
           <h1 class="page-hero__title">эффективные решения<br> для вашего бизнеса</h1>
-          <button class="button" type="button" data-modal-open>Заказать услугу</button>
+          <button class="button page-hero__button" type="button" data-modal-open>Заказать услугу</button>
      
        
           </section>
@@ -308,107 +308,116 @@
       </section>
       </main>
 
-    <footer class="address">
-      <div class="container">
-        <div class="addresses-group">
+    <footer class="page-footer">
+      <div class="container page-footer__flex">
+
           <div>
         <a href="./index.html" class="logo"
-          >Web<span class="studio-white">Studio</span></a
+          >Web<span class="logo page-footer__logo">Studio</span></a
         >
         <address>
-          <ul class="footer-list list">
-            <li class="street-house">г. Киев, пр-т Леси Украинки, 26</li>
+          <ul class="set-address list">
+            <li class="set-address__item">г. Киев, пр-т Леси Украинки, 26</li>
             <li>
-              <a class="email-address" href="mailto:info@example.com"
+              <a class="set-address__link" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a class="tel-address" href="tel:+380991111111"
+              <a class="set-address__link" href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
             </li>
           </ul>
         </address>
         </div>
-        <div class="footer-icon-soc">
-          <p class="welcome-soc">ПРИСОЕДИНЯЙТЕСЬ</p>
-          <ul class="icons-team">
-            <li class="icon-item border-b-c-soc"><a class="icons-social" href="">
-                <svg class="icon-inst fill-footer-soc">
+        <div class="invite">
+          <p class="invite__title">присоединяйтесь</p>
+          <ul class="set-icon">
+            <li class="set-icon__item set-icon__border">
+              <a class="set-icon__link" href="">
+                <svg class="set-icon__icon set-icon__fill">
                   <use href="./images/icon/icons.svg#icon-instagram"></use>
                 </svg>
               </a></li>
-            <li class="icon-item border-b-c-soc"><a class="icons-social" href=""><svg class="icon-inst fill-footer-soc">
+            <li class="set-icon__item set-icon__border">
+              <a class="set-icon__link" href="">
+                <svg class="set-icon__icon set-icon__fill">
                   <use href="./images/icon/icons.svg#icon-twitter"></use>
                 </svg>
               </a></li>
-            <li class="icon-item border-b-c-soc"><a class="icons-social" href=""><svg class="icon-inst fill-footer-soc">
+            <li class="set-icon__item set-icon__border">
+              <a class="set-icon__link" href="">
+                <svg class="set-icon__icon set-icon__fill">
                   <use href="./images/icon/icons.svg#icon-facebook"></use>
                 </svg></a></li>
-            <li class="icon-item border-b-c-soc"><a class="icons-social" href=""><svg class="icon-inst fill-footer-soc">
+            <li class="set-icon__item set-icon__border">
+              <a class="set-icon__link" href="">
+                <svg class="set-icon__icon set-icon__fill">
                   <use href="./images/icon/icons.svg#icon-linkedin"></use>
                 </svg></a></li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <p class="subscribe-text">Подпишитесь на рассылку</p>
-          <input class="subscribe-input" type="text" name="subscribe" placeholder="E-mail"/>
-          <button class="subscribe-button" type="submit">Подписаться<svg class="subscribe-icon"><use href="./images/icon/icons.svg#subscribe"></use></svg></button>
+        <form class="form">
+          <p class="form__title">Подпишитесь на рассылку</p>
+          <input class="form__input" type="text" name="subscribe" placeholder="E-mail"/>
+          <button class="button form__button" type="submit">Подписаться<svg class="form__icon"><use href="./images/icon/icons.svg#subscribe"></use></svg></button>
         </form>
         </div>
-      </div>
+      
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
     
-        <button class="modal-button" type="button" data-modal-close><svg class="modal-icon">
+        <button class="modal-button" type="button" data-modal-close><svg class="modal-button__icon">
             <use href="./images/Vector.svg#vector">
             </use>
           </svg></button>
-        <form class="form-modal">
-          <p class="form-title">Оставьте свои данные, мы вам перезвоним.</p>
+        <form class="modal-form">
+          <p class="modal-form__title">Оставьте свои данные, мы вам перезвоним.</p>
           
-            <label for="name" class="text-name">Имя</label>
-            <span class="form-conteiner">
-              <input class="form-modal-input" type="text" name="name" id="name" /><svg class="icon-form-name">
+            <label for="name" class="modal-form-label">Имя</label>
+            <span class="modal-form__conteiner">
+              <input class="modal-form__input" type="text" name="name" id="name" /><svg class="modal-form__icon">
                 <use href="./images/icon/icons.svg#icon-person-black-18dp-1"></use>
               </svg></span>
          
     
-          <label for="tel" class="text-name">Телефон</label>
-          <span class="form-conteiner">
-            <input class="form-modal-input" type="tel" name="tel" id="tel" /><svg class="icon-form-name">
+          <label for="tel" class="modal-form-label">Телефон</label>
+          <span class="modal-form__conteiner">
+            <input class="modal-form__input" type="tel" name="tel" id="tel" />
+            <svg class="modal-form__icon">
               <use href="./images/icon/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </span>
     
     
-          <label for="email" class="text-name">Почта</label>
-          <span class="form-conteiner">
-            <input class="form-modal-input" type="email" name="email" id="email" /><svg class="icon-form-name">
+          <label for="email" class="modal-form-label">Почта</label>
+          <span class="modal-form__conteiner">
+            <input class="modal-form__input" type="email" name="email" id="email" />
+            <svg class="modal-form__icon">
               <use href="./images/icon/icons.svg#icon-email-black-18dp-1"></use>
             </svg>
           </span>
     
     
-          <label for="comment" class="text-name">Комментарий</label>
-          <span class="form-conteiner">
+          <label for="comment" class="modal-form-label">Комментарий</label>
+          <span class="modal-form__conteiner">
             <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
           </span>
     
     
-          <label for="agreement" class="text-agreement">
-            <input class="license-form visually-hidden" id="agreement" type="checkbox" name="agreement" value="agreement" required />
-            <span class="icon-input"></span>
-            <span class="agreement-info">
+          <label for="agreement" class="agreement">
+            <input class="engreement__input visually-hidden" id="agreement" type="checkbox" name="agreement" value="agreement" required />
+            <span class="engreement_icon"></span>
+            <span class="agreement__info">
               Соглашаюсь с рассылкой и принимаю.
-              <a class="text-agreement-blue" href="">Условия договора</a>
+              <a class="agreement__link" href="">Условия договора</a>
             </span>
           </label>
     
     
-          <button type="submit" class="form-button">Отправить</button>
+          <button type="submit" class="button angreement-button">Отправить</button>
     
         </form>
     </div>
