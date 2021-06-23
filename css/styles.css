@@ -209,6 +209,8 @@ img {
   cursor: pointer;
   fill: black;
   border-color: transparent;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -755,6 +757,7 @@ textarea {
   margin-left: 93px;
 }
 .subscribe-button {
+  display: inline-block;
   align-items: center;
   position: relative;
   padding: 10px 62px 10px 29px;
@@ -774,7 +777,7 @@ textarea {
 }
 .subscribe-icon {
   position: absolute;
-  right: 13px;
+  right: 28px;
   width: 24px;
   height: 24px;
   fill: #fff;
