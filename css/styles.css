@@ -877,6 +877,7 @@ address li {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -919,7 +920,7 @@ address li {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.button-line {
+.set-button {
   justify-content: center;
   display: flex;
   list-style: none;
@@ -927,12 +928,8 @@ address li {
   padding: 0;
   margin-top: 0;
 }
-.block-projects:hover,
-.block-projects:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.link {
+
+.set-button__button {
   font-family: var(--primery-text);
   font-weight: 500;
   font-size: 16px;
@@ -947,28 +944,28 @@ address li {
   border: none;
   background: #f5f4fa;
 }
-.button-line li {
+.set-button li {
   margin-left: 8px;
 }
-.button-line li:first-child {
+.set-button li:first-child {
   margin-left: 0;
 }
 
-.link:hover,
-.link:focus {
+.set-button__button:hover,
+.set-button__button:focus {
   background-color: var(--accent-color);
   color: var(--primery-background);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.link {
+.set-button__button {
   color: var(--primery-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-works h3 {
+.set-project h3 {
   font-family: var(--primery-text);
   font-style: normal;
   font-weight: bold;
@@ -977,50 +974,49 @@ address li {
   letter-spacing: 0.06em;
 }
 
-.project-works p {
+.set-project p {
   font-family: var(--primery-text);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-/* оформление flexbox-index */
-.feautures-list {
-  display: flex;
-}
 
 /* оформление flexbox-portfolio */
-.project-works {
+.set-project {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin-bottom: 0;
-  /* margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap)); */
 }
 .current {
   position: relative;
   color: #2196f3;
 }
-.project-works .block-projects {
+.set-project__item:hover,
+.set-project__item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.set-project .set-project__item {
   flex-basis: calc(100% / 3 -20px);
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.block-projects:nth-child(3n + 1) {
+.set-project__item:nth-child(3n + 1) {
   margin-left: 0;
 }
-.block-projects:nth-child(-n + 3) {
+.set-project__item:nth-child(-n + 3) {
   margin-top: auto;
 }
-.card-heading {
+.set-project__title {
   padding: 0 0 4px 0;
   text-align: left;
   margin: 0 24px;
 }
 
-.card-text {
+.set-project__text {
   text-align: left;
   margin: 0 24px;
 }
@@ -1028,7 +1024,7 @@ address li {
   border: 1px solid #eeeeee;
   padding: 20px 0;
 }
-.card-thumb > p {
+.product__thumb > p {
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.55;
@@ -1038,7 +1034,7 @@ address li {
   padding: 63px 24px;
 }
 
-.card-thumb {
+.product__thumb {
   position: relative;
   bottom: 0;
   left: 0;
@@ -1048,15 +1044,15 @@ address li {
   margin-right: auto;
   overflow: hidden;
 }
-.card {
+.product {
   cursor: pointer;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.card:hover .project-windows {
+.product:hover .product__text {
   transform: translateY(0);
 }
 
-.project-windows {
+.product__text {
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
   margin: 0;
