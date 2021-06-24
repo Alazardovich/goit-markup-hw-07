@@ -125,8 +125,6 @@ img {
   background: #2196f3;
 }
 
-.color-web {
-}
 .auth-nav {
   display: flex;
   align-items: center;
@@ -457,9 +455,6 @@ textarea {
 .section-detail {
   padding-top: 94px;
 }
-.empty {
-  pading-bottom: 0;
-}
 .set-features {
   display: flex;
   flex-wrap: wrap;
@@ -536,11 +531,11 @@ textarea {
   height: 20px;
   /* fill: #afb1b8; */
 }
-.set-icon__link:hover .set-icon__icon,
+/* .set-icon__link:hover .set-icon__icon,
 .set-icon__link:focus .set-icon__icon {
-  /* fill: #fff;
-  background-color: var(--accent-color); */
-}
+ fill: #fff;
+  background-color: var(--accent-color);
+} */
 
 .set-icon__link:hover,
 .set-icon__link:focus {
