@@ -47,9 +47,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section {
   color: #212121;
 }
 
@@ -961,7 +958,7 @@ textarea {
   background-color: #afb1b8;
 } */
 .angreement-button {
-  font-family: var(--primery-text);
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
