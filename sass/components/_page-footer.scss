@@ -16,7 +16,7 @@
 }
 .page-footer {
   background: #2f303a;
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -33,7 +33,7 @@ address li {
   margin: 0;
 }
 .set-address__link {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -44,7 +44,7 @@ address li {
 }
 
 .set-address__item {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

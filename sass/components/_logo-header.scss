@@ -6,12 +6,10 @@
   line-height: 1.2;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
   margin: 0px;
   /* display: flex; */
 }
 .logo__studio-black {
-  color: var(--primery-color);
+  color: $primery-color;
 }
-
-

@@ -1,7 +1,7 @@
 /* form-footer */
 .form__title {
   position: relative;
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -39,7 +39,7 @@
   height: 50px;
   padding: 15px 16px;
   background-color: inherit;
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

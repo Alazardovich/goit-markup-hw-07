@@ -13,7 +13,7 @@
   margin-right: 30px;
 }
 .set-features__title {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -29,26 +29,26 @@
   background-color: #f5f4fa;
 }
 .set-features__item:nth-child(1)::before {
-  background-image: url(..//images/icons.svg/antenna.svg);
+  background-image: url("..//images/icons.svg/antenna.svg");
 }
 .set-features__item:nth-child(2)::before {
-  background-image: url(..//images/icons.svg/2.svg);
+  background-image: url("..//images/icons.svg/2.svg");
 }
 .set-features__item:nth-child(3)::before {
-  background-image: url(..//images/icons.svg/3.svg);
+  background-image: url("..//images/icons.svg/3.svg");
 }
 .set-features__item:nth-child(4)::before {
-  background-image: url(..//images/icons.svg/4.svg);
+  background-image: url("..//images/icons.svg/4.svg");
 }
 .set-features p {
-  color: var(--title-color);
-  font-family: var(--primery-text);
+  color: $title-color;
+  font-family: $primery-text;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .set-features h3 {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

@@ -1,10 +1,10 @@
 .invite__title {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 3%;
-  color: var(--primery-background);
+  color: $primery-background;
   text-transform: uppercase;
   margin-bottom: 20px;
 }

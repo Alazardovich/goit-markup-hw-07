@@ -1,5 +1,5 @@
 .section__name {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -11,7 +11,7 @@
   background-color: #f5f4fa;
 }
 .set-card__name {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -35,7 +35,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background: var(--primery-background);
+  background: $primery-background;
   margin-left: 30px;
 }
 .set-card__item:first-child {
@@ -44,11 +44,11 @@
 /* box-shadow: var(--card-shadow);*/
 
 .set-card p {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: $title-color;
   margin: 0;
 }

@@ -56,12 +56,9 @@
 .auth-nav .auth-nav__item:last-child {
   margin-right: 0;
 }
-.current {
-  position: relative;
-  color: #2196f3;
-}
+
 .link-header {
-  font-family: var(--primery-text);
+  font-family: $primery-text;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -97,15 +94,19 @@
 }
 .link-header:hover,
 .link-header:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .site-nav .link-header:hover,
 .site-nav .link-header:focus,
 .auth-nav .link-header:hover,
 .auth-nav .link-header:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .auth-nav .link-header {
-  color: var(--title-color);
+  color: $title-color;
+}
+.current {
+  position: relative;
+  color: #2196f3;
 }
