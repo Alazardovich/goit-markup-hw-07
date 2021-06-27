@@ -13,8 +13,10 @@
   align-items: center;
   fill: #afb1b8;
 }
-.set-client__item:first-child {
-  margin-left: 0;
+.set-client__item {
+  &:first-child {
+    margin-left: 0;
+  }
 }
 .set-client__link {
   display: flex;
@@ -29,16 +31,17 @@
   transition: border 250ms $method-transition;
 }
 
-.set-client__link:hover .set-client__icon,
-.set-client__linkt:focus .set-client__icon {
-  fill: #2196f3;
+.set-client__link {
+  &:hover .set-client__icon,
+  &:focus .set-client__icon {
+    fill: #2196f3;
+  }
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
-.set-client__link:hover,
-.set-client__link:focus {
-  border: 1px solid #2196f3;
-}
-
-.set-client__icon {
+.set-client__link .set-client__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;

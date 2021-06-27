@@ -92,17 +92,20 @@
 .auth-nav .link-header {
   transition: color 250ms $method-transition;
 }
-.link-header:hover,
-.link-header:focus {
-  fill: $accent-color;
+.link-header {
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    color: $accent-color;
+  }
 }
 
-.site-nav .link-header:hover,
-.site-nav .link-header:focus,
-.auth-nav .link-header:hover,
-.auth-nav .link-header:focus {
-  color: $accent-color;
-}
+// .site-nav .link-header:hover,
+// .site-nav .link-header:focus,
+// .auth-nav .link-header:hover,
+// .auth-nav .link-header:focus {
+//   color: $accent-color;
+// }
 .auth-nav .link-header {
   color: $title-color;
 }

@@ -20,26 +20,29 @@
   letter-spacing: 3%;
   text-transform: uppercase;
 }
-.set-features__item::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+.set-features__item {
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+  }
+  &:nth-child(1)::before {
+    background-image: url("..//images/icons.svg/antenna.svg");
+  }
+  &:nth-child(2)::before {
+    background-image: url("..//images/icons.svg/2.svg");
+  }
+  &:nth-child(3)::before {
+    background-image: url("..//images/icons.svg/3.svg");
+  }
+  &:nth-child(4)::before {
+    background-image: url("..//images/icons.svg/4.svg");
+  }
 }
-.set-features__item:nth-child(1)::before {
-  background-image: url("..//images/icons.svg/antenna.svg");
-}
-.set-features__item:nth-child(2)::before {
-  background-image: url("..//images/icons.svg/2.svg");
-}
-.set-features__item:nth-child(3)::before {
-  background-image: url("..//images/icons.svg/3.svg");
-}
-.set-features__item:nth-child(4)::before {
-  background-image: url("..//images/icons.svg/4.svg");
-}
+
 .set-features p {
   color: $title-color;
   font-family: $primery-text;

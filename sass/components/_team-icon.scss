@@ -14,8 +14,10 @@
   background-color: #fff;
 }
 
-.set-icon__item:first-child {
-  margin-left: 0;
+.set-icon__item {
+  &:first-child {
+    margin-left: 0;
+  }
 }
 .set-icon__link {
   width: 44px;
@@ -39,12 +41,13 @@
   background-color: var(--accent-color);
 } */
 
-.set-icon__link:hover,
-.set-icon__link:focus {
-  background: $accent-color;
-  fill: #fff;
+.set-icon__link {
+  &:hover,
+  &:focus {
+    background: $accent-color;
+    fill: #fff;
+  }
 }
-
 /* Footer social icons */
 .set-icon__fill {
   fill: #fff;
